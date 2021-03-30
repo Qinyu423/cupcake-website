@@ -32,3 +32,13 @@ li a {
 li a:hover {
     background-color: #111111;
   }
+
+@media only screen and (max-width: 800px) {
+    body {
+      background-color: #e6ccff;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+      }
+  }
